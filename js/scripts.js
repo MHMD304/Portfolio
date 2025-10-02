@@ -33,7 +33,7 @@ function closePowerModal() {
 
 
 function downloadCV() {
-    const cvUrl = './Mohammad_Al_Soliman.pdf';
+    const cvUrl = './Mohammad_Al_SolimanV2.pdf';
     const link = document.createElement('a');
     link.href = cvUrl;
     link.target = '_blank';
