@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohammad Al Soliman</title>
+    <title>Mohammad Al Soliman - Full Stack Developer & Software Engineer</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="Mohammad Al Soliman - Full Stack Developer and Software Engineer from Beirut, Lebanon. Specializing in web development, software engineering, and cutting-edge technologies.">
@@ -18,7 +18,7 @@
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Mohammad Al Soliman">
-    <meta name="twitter:description" content="Galactic Code Warrior - Full Stack Developer & Software Engineer">
+    <meta name="twitter:description" content="Full Stack Developer & Software Engineer">
     
     <link href="css/styles.css" rel="stylesheet" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,6 +32,7 @@
     <header class="alien-header">
     <nav class="navbar navbar-expand-lg nav-container ">
         <div class="container-fluid">
+            <!-- Brand / Name -->
             <a class="navbar-brand hero-name" href="#">MOHAMMAD AL SOLIMAN</a>
 
             <!-- Toggler for mobile -->
@@ -47,10 +48,10 @@
                         Home
                     </li>
                     <li class="nav-item" onclick="scrollToSection('about')" role="button" tabindex="0">
-                        Powers
+                        Skills
                     </li>
                     <li class="nav-item" onclick="scrollToSection('education')" role="button" tabindex="0">
-                        Origins
+                        Education
                     </li>
                 </ul>
 
@@ -71,21 +72,23 @@
             <div class="row align-items-center ">
                 <div class="col-6 col-lg-7">
                     <div class="superhero-card">
-                        <div class="hero-greeting">Greetings, Earthlings</div>
+                        <div class="hero-greeting">Hello, I'm</div>
                         <h1 class="hero-title">
-                            GALACTIC<br>
-                            CODE<br>
-                            WARRIOR
+                            Mohammad<br>
+                            Al Soliman
                         </h1>
+                        <p class="hero-subtitle">Full Stack Developer & Software Engineer</p>
                         <button class="power-button" onclick="activatePowers()" aria-label="Open Profile Modal">
-                            <i class="fas fa-rocket me-2"></i>
-                            ACTIVATE POWERS
+                            <i class="fas fa-user me-2"></i>
+                            View Profile
                         </button>
                     </div>
                 </div>
-                <div class="col-6 col-lg-5">
-                    <div class="profile-container">
-                        
+                <div class="col-12">
+                    <div class="hero-content">
+                        <div class="hero-description">
+                            <p>Passionate developer with expertise in modern web technologies and software engineering practices.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -95,7 +98,7 @@
             <!-- Tech Powers Section -->
    <section class="tech-powers" id="about">
     <div class="container">
-        <h2 class="section-title">TECHNOLOGICAL POWERS</h2>
+        <h2 class="section-title">TECHNICAL SKILLS</h2>
         <div class="powers-grid">
 
             <!-- HTML -->
@@ -158,6 +161,12 @@
                 <i class="devicon-python-plain" title="Python Power"></i>
             </div>
 
+            <!-- Django -->
+            <div class="power-orb" onclick="activateOrb(this)" role="button" tabindex="0" aria-label="Django Framework">
+                <div class="power-ring"></div>
+                <i class="devicon-django-plain" title="Django Framework"></i>
+            </div>
+
             <!-- Java -->
             <div class="power-orb" onclick="activateOrb(this)" role="button" tabindex="0" aria-label="Java Strength">
                 <div class="power-ring"></div>
@@ -196,7 +205,7 @@
 </section>
 <section class="quantum-education" id="education">
     <div class="container">
-        <h2 class="section-title">ORIGIN STORY</h2>
+        <h2 class="section-title">EDUCATION</h2>
         <div class="timeline">
             <div class="timeline-node">
                 <div class="node-marker"></div>
@@ -204,14 +213,14 @@
                     <h3 class="education-title">B.Sc. in Computer Science</h3>
                     <div class="education-school">Lebanease University </div>
                     <div class="education-details">
-                        Mastered the ancient arts of Full-Stack Development and Software Engineering. 
-                        Learned to harness the power of algorithms and bend databases to my will.
+                        Specialized in Full-Stack Development and Software Engineering.
+                        Developed strong skills in algorithms and database management.
                     </div>
                     <div class="achievement-tags">
-                            <span class="achievement-tag">GPA:68%</span>
-                            <span class="achievement-tag">Persistent  explorer</span>
-                            <span class="achievement-tag">Code Warrior</span>
-                            <span class="achievement-tag">Hardworking Star</span>
+                            <span class="achievement-tag">GPA: 68%</span>
+                            <span class="achievement-tag">Persistent Learner</span>
+                            <span class="achievement-tag">Dedicated Developer</span>
+                            <span class="achievement-tag">Hardworking</span>
                     </div>
                 </div>
             </div>
@@ -221,16 +230,17 @@
                     <h3 class="education-title">Projects</h3>
                     <div class="education-school">Portfolio Projects & Personal Work</div>
                     <div class="education-details">
-                        Showcasing my journey through coding .
+                        A collection of projects demonstrating my skills and growth as a developer.
                     </div>
                     <ul class="achievement-tags">
                         <span class="achievement-tag">Weather App</span>
+                        <span class="achievement-tag">Little lemmon restaurant</span>
                         <span class="achievement-tag">Geography-Assistant</span>
                         <span class="achievement-tag">Archery Academy Website</span>
                         <span class="achievement-tag">ClockWise-Website</span>
                         <span class="achievement-tag">ClockWise-Mobile-App</span>
-                        <span class="achievement-tag">ai-travel-agent</span>
-
+                        <span class="achievement-tag">Ai-travel-agent</span>
+                        <span class="achievement-tag">Ecommerce site in react</span>
                     </ul>
                 </div>
             </div>
@@ -241,17 +251,13 @@
                         <h3 class="education-title">Professional Certificates</h3>
                         <div class="education-school">Upskilling via Coursera & other online courses</div>
                         <div class="education-details">
-                            Continuously upgrading powers through advanced certifications from across the galaxy. 
-                            Always learning new technologies to protect the digital universe.
+                            Continuously expanding my knowledge through professional certifications and online courses.
+                            Always learning new technologies to stay current in the field.
                         </div>
                         <div class="achievement-tags">
-                           <span class="achievement-tag">Google IT Support Professional</span>
-                            <span class="achievement-tag">AWS Cloud Practitioner</span>
+                           <span class="achievement-tag">Meta Front-End Developer</span>
+                            <span class="achievement-tag">IBM Back-End Developer</span>
                             <span class="achievement-tag">IBM Data Science Professional</span>
-                            <span class="achievement-tag">DeepLearning.AI TensorFlow</span>
-                            <span class="achievement-tag">IBM Full Stack Software</span>
-                            <span class="achievement-tag" >Meta Back-End</span>
-                            <span class="achievement-tag" >Meta Front-End</span>
                         </div>
                     </div>
                 </div>
@@ -264,7 +270,7 @@
     <div class="modal-overlay" onclick="closePowerModal()"></div>
     <div class="modal-content">
         <div class="modal-header">
-            <h2 class="modal-title">WARRIOR PROFILE ACTIVATED</h2>
+            <h2 class="modal-title">PROFESSIONAL PROFILE</h2>
             <button class="close-btn" onclick="closePowerModal()"><i class="fas fa-window-close"></i></button>
         </div>
         
@@ -275,9 +281,9 @@
                     <img src="my-image.jpg" alt="Mohammad Al Soliman" class="modal-avatar">
                 </div>
                 
-                <div class="warrior-stats">
+                <div class="professional-info">
                     <h3>MOHAMMAD AL SOLIMAN</h3>
-                    
+                    <p class="title-glow">Full Stack Developer & Software Engineer</p>
                 </div>
             </div>
             
@@ -285,7 +291,7 @@
                 <div class="info-card">
                     <div class="card-icon"><i class="fas fa-envelope"></i></div>
                     <div class="card-content">
-                        <h4>COMMUNICATION FREQUENCY</h4>
+                        <h4>Email</h4>
                         <p>slymanmhamad86@gmail.com</p>
                     </div>
                 </div>
@@ -293,7 +299,7 @@
                 <div class="info-card">
                     <div class="card-icon"><i class="fas fas fa-phone"></i></div>
                     <div class="card-content">
-                        <h4>DIRECT SIGNAL</h4>
+                        <h4>Phone</h4>
                         <p>+961 81 359 411</p>
                     </div>
                 </div>
@@ -301,7 +307,7 @@
                 <div class="info-card">
                     <div class="card-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <div class="card-content">
-                        <h4>CURRENT COORDINATES</h4>
+                        <h4>Location</h4>
                         <p>Beirut, Lebanon</p>
                     </div>
                 </div>
@@ -309,8 +315,8 @@
                 <div class="info-card">
                     <div class="card-icon"><i class="fas fa-briefcase"></i></div>
                     <div class="card-content">
-                        <h4>MISSION STATUS</h4>
-                        <p>Available for New Quests</p>
+                        <h4>Availability</h4>
+                        <p>Open to Opportunities</p>
                     </div>
                 </div>
                 
@@ -325,25 +331,25 @@
                 <div class="info-card">
                     <div class="card-icon"><i class="fas fa-bolt"></i></div>
                     <div class="card-content">
-                        <h4>EXPERIENCE LEVEL</h4>
-                        <p>3+ Years in the Digital Realm</p>
+                        <h4>Experience</h4>
+                        <p>3+ Years of Professional Experience</p>
                     </div>
                 </div>
             </div>
             
             <div class="mission-statement">
-                <h3>WARRIOR'S CREED</h3>
-                <p>"Transforming ideas into digital reality through code. Armed with cutting-edge technologies and an unrelenting passion for problem-solving, I protect the digital universe one project at a time."</p>
+                <h3>PROFESSIONAL SUMMARY</h3>
+                <p>"Passionate developer dedicated to transforming ideas into digital reality through clean, efficient code. Committed to continuous learning and delivering high-quality software solutions."</p>
             </div>
             
             <div class="action-buttons">
                 <button class="contact-btn" onclick="openEmail()">
                     <i class="fas fa-envelope"></i>
-                    ESTABLISH CONTACT
+                    Contact Me
                 </button>
                 <button class="download-btn" target="_blank" onclick="downloadCV()">
                     <i class="fas fa-download"></i>
-                    View CV
+                    Download CV
                 </button>
             </div>
         </div>
